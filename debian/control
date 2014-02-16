@@ -33,7 +33,7 @@ Build-Depends: cdbs,
                libgail-dev,
                xsltproc,
                libgxps-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 Homepage: http://www.mate-desktop.org/
 
 Package: atril
