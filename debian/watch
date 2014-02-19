@@ -1,3 +1,3 @@
 version=3
-opts=filenamemangle=s/mate-document-viewer/atril/ \
+opts=dversionmangle=s/\+dfsg1//,filenamemangle=s/mate-document-viewer/atril/ \
 http://pub.mate-desktop.org/releases/(\d\.(12|14|6|8|10))/(?:mate-document-viewer|atril)-(.*)\.tar\.xz
