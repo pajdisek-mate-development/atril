@@ -1,2 +1,3 @@
 version=3
-http://pub.mate-desktop.org/releases/(\d\.(2|4|6|8|0))/mate-document-viewer-(.*)\.tar\.xz
+opts=filenamemangle=s/mate-document-viewer/atril/ \
+http://pub.mate-desktop.org/releases/(\d\.(12|14|6|8|10))/(?:mate-document-viewer|atril)-(.*)\.tar\.xz
