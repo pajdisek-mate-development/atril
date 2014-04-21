@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: atril
 Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
-Source: http://pub.mate-desktop.org/releases/
+Source: http://git.mate-desktop.org/atril/
 
 Files: backend/dvi/cairo-device.c
        backend/dvi/cairo-device.h
@@ -374,9 +374,8 @@ License: LGPL-2+
 Files: backend/dvi/mdvi-lib/afmparse.c
        backend/dvi/mdvi-lib/afmparse.h
 Copyright: 1988, 1989, 1990, Adobe Systems Incorporated.
-License: UNKNOWN
-Specified files lack copyright/license information in the
-(non-present) file header.
+License:
+ Using license from COPYING file.
 
 Files: cut-n-paste/synctex/synctex_parser.c
 Copyright: 2008, 2009, 2010, jerome DOT laurens AT u-bourgogne DOT fr
@@ -524,9 +523,8 @@ Files: backend/tiff/tiff2ps.c
 Copyright: 1988,1997, Sam Leffler
            1991,1997, Silicon Graphics, Inc
            2005, rpath, Inc
-License: UNKNOWN
-Specified files lack copyright/license information in the
-(non-present) file header.
+License:
+ Using license from COPYING file.
 
 Files: debian/*
 Copyright: 2011, Stefano Karapetsas <stefano@karapetsas.com>
@@ -538,7 +536,7 @@ License: GPL-2+
 This package is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
-(at your opinion) any later version.
+(at your option) any later version.
 .
 This package is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
