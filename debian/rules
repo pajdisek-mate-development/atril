@@ -14,6 +14,7 @@ DEB_DH_INSTALL_ARGS += --list-missing
 DEB_CONFIGURE_SCRIPT := ./autogen.sh
 
 DEB_CONFIGURE_EXTRA_FLAGS := --disable-scrollkeeper \
+			--disable-silent-rules \
 			--enable-gtk-doc \
 			--enable-djvu \
 			--enable-dvi \
