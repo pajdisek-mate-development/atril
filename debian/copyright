@@ -166,6 +166,7 @@ Files: autogen.sh
        test/test7.py
 Copyright: *No copyright*
 License: UNKNOWN
+Comment:
 Specified files lack copyright/license information in the
 (non-present) file header.
 
@@ -359,6 +360,12 @@ Files: libdocument/ev-document-text.c
        libdocument/ev-document-text.h
 Copyright: 2010, Yaco Sistemas, Daniel Garcia <danigm@yaco.es>
 License: GPL-2+
+
+Files: po/*.po
+Copyright: THE PACKAGE'S COPYRIGHT HOLDER
+License: GPL-2+
+Comment:
+ Using license from COPYING file.
 
 Files: cut-n-paste/gimpcellrenderertoggle/gimpcellrenderertoggle.c
        cut-n-paste/gimpcellrenderertoggle/gimpcellrenderertoggle.h
