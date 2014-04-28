@@ -165,10 +165,9 @@ Files: autogen.sh
        test/test6.py
        test/test7.py
 Copyright: *No copyright*
-License: UNKNOWN
+License: GPL-2+
 Comment:
-Specified files lack copyright/license information in the
-(non-present) file header.
+ Using license from COPYING file.
 
 Files: cut-n-paste/toolbar-editor/egg-editable-toolbar.c
        cut-n-paste/toolbar-editor/egg-editable-toolbar.h
