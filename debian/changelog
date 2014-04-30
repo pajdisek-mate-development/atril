@@ -1,5 +1,5 @@
-atril (1.8.0+dfsg1-1) UNRELEASED; urgency=low
+atril (1.8.0+dfsg1-1) unstable; urgency=low
 
   * Initial release. (Closes: #734911).
 
- -- Vangelis Mouhtsis <vangelis@gnugr.org>  Mon, 21 Apr 2014 23:33:44 +0300
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 30 Apr 2014 11:47:31 +0200

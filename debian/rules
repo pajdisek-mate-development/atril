@@ -26,8 +26,13 @@ DEB_CONFIGURE_EXTRA_FLAGS := --disable-scrollkeeper \
 			--disable-introspection \
 			--disable-static
 
+install/libatrildocument3::
+	rm -Rf debian/tmp/usr/lib/atril/3/backends/*.la
+
+install/atril::
+	rm -Rf debian/tmp/usr/lib/x86_64-linux-gnu/caja/extensions-2.0/libatril-properties-page.la
+
 get-orig-source: $(PKG)_$(VER)$(DTYPE).orig.tar.xz $(info I: $(PKG)_$(VER)$(DTYPE))
-	echo $(PKD)
 	@
 
 $(PKG)_$(VER)$(DTYPE).orig.tar.xz:
@@ -40,7 +45,6 @@ $(PKG)_$(VER)$(DTYPE).orig.tar.xz:
 	    || $(RM) -r $(PKG)-$(VER)
 	@echo "# Cleaning-up..."
 	cd $(PKG)-$(VER) \
-	    && find . -depth -type d -name 'windows' -exec $(RM) -r {} \; -printf 'removed %p\n' \
 	    && $(RM) -r -v \
 	        help/
 	$(RM) -v $(PKG)_$(VER).orig.tar.*
