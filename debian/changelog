@@ -1,8 +1,10 @@
-atril (1.8.0+dfsg1-2) UNRELEASED; urgency=medium
+atril (1.8.0+dfsg1-2) unstable; urgency=low
 
-  * Remove libt1-dev build dependency (it is removed in Debian).
+  * debian/control:
+    + Drop B-D: libt1-dev. Package has been removed from Debian unstable.
+      (For reference see #638759 and #744881).
 
- -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 04 May 2014 22:07:11 +0200
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 05 May 2014 08:39:16 +0200
 
 atril (1.8.0+dfsg1-1) unstable; urgency=low
 
