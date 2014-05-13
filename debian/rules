@@ -32,6 +32,12 @@ install/libatrildocument3::
 install/atril::
 	rm -Rf debian/tmp/usr/lib/x86_64-linux-gnu/caja/extensions-2.0/libatril-properties-page.la
 
+common-install-indep:: remove-cruft
+common-install-arch:: remove-cruft
+
+remove-cruft::
+	rm -f debian/tmp/usr/lib/*.la
+
 get-orig-source: $(PKG)_$(VER)$(DTYPE).orig.tar.xz $(info I: $(PKG)_$(VER)$(DTYPE))
 	@
 
