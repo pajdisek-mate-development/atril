@@ -1,3 +1,11 @@
+atril (1.8.0+dfsg1-3) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 1002_FTBFS-atril-with-clang.patch. Fix FTBFS when build with clang.
+      (Closes: #753344).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 01 Jul 2014 20:16:19 +0200
+
 atril (1.8.0+dfsg1-2) unstable; urgency=low
 
   * debian/control:
