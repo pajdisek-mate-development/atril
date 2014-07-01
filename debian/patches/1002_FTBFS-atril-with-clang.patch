@@ -1,0 +1,16 @@
+Description: Fix FTBFS of atril when build with the clang compiler
+Author: Alexander <sanek23994@gmail.com>
+Forwarded: https://github.com/mate-desktop/atril/issues/82
+Origin: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=753344
+
+--- a/libview/ev-view.c	2014-03-01 15:53:25.000000000 +0400
++++ b/libview/ev-view.c	2014-06-30 22:25:35.306279684 +0400
+@@ -840,7 +840,7 @@
+ }
+ 
+ #if !GTK_CHECK_VERSION (3, 0, 0)
+-ev_view_set_scroll_adjustments (GtkLayout      *layout,
++void ev_view_set_scroll_adjustments (GtkLayout      *layout,
+ 				GtkAdjustment  *hadjustment,
+ 				GtkAdjustment  *vadjustment)
+ {
