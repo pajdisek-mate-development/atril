@@ -1,3 +1,10 @@
+atril (1.8.0+dfsg1-4) unstable; urgency=medium
+
+  * debian/control:
+    + Modify B-D: libtiff4-dev -> libtiff-dev. (Closes: #753820).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 08 Jul 2014 01:15:47 +0200
+
 atril (1.8.0+dfsg1-3) unstable; urgency=medium
 
   * debian/patches:
