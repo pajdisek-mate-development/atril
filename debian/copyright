@@ -339,22 +339,7 @@ License: LGPL-2+
 Files: backend/dvi/mdvi-lib/afmparse.c
        backend/dvi/mdvi-lib/afmparse.h
 Copyright: 1988-1990, Adobe Systems Incorporated
-License:
- This file may be freely copied and redistributed as long as:
-   1) This entire notice continues to be included in the file, 
-   2) If the file has been modified in any way, a notice of such
-      modification is conspicuously indicated.
- .
- PostScript, Display PostScript, and Adobe are registered trademarks of
- Adobe Systems Incorporated.
- .
- THE INFORMATION BELOW IS FURNISHED AS IS, IS SUBJECT TO CHANGE WITHOUT
- NOTICE, AND SHOULD NOT BE CONSTRUED AS A COMMITMENT BY ADOBE SYSTEMS
- INCORPORATED. ADOBE SYSTEMS INCORPORATED ASSUMES NO RESPONSIBILITY OR 
- LIABILITY FOR ANY ERRORS OR INACCURACIES, MAKES NO WARRANTY OF ANY 
- KIND (EXPRESS, IMPLIED OR STATUTORY) WITH RESPECT TO THIS INFORMATION, 
- AND EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES OF MERCHANTABILITY, 
- FITNESS FOR PARTICULAR PURPOSES AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+License: Afmparse
 
 Files: cut-n-paste/synctex/synctex_parser.c
 Copyright: 2008-2010, Jerome Laurens <jerome.laurens@u-bourgogne.fr
@@ -490,7 +475,8 @@ Files: backend/tiff/tiff2ps.c
 Copyright: 1988-1997, Sam Leffler
            1991-1997, Silicon Graphics, Inc
            2005, rpath, Inc
-License:
+License: GPL-2+
+Comment:
  Using license from COPYING file.
 
 Files: po/*.po
@@ -706,3 +692,20 @@ License: Expat
  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: Afmparse
+ This file may be freely copied and redistributed as long as:
+   1) This entire notice continues to be included in the file,
+   2) If the file has been modified in any way, a notice of such
+      modification is conspicuously indicated.
+ .
+ PostScript, Display PostScript, and Adobe are registered trademarks of
+ Adobe Systems Incorporated.
+ .
+ THE INFORMATION BELOW IS FURNISHED AS IS, IS SUBJECT TO CHANGE WITHOUT
+ NOTICE, AND SHOULD NOT BE CONSTRUED AS A COMMITMENT BY ADOBE SYSTEMS
+ INCORPORATED. ADOBE SYSTEMS INCORPORATED ASSUMES NO RESPONSIBILITY OR
+ LIABILITY FOR ANY ERRORS OR INACCURACIES, MAKES NO WARRANTY OF ANY
+ KIND (EXPRESS, IMPLIED OR STATUTORY) WITH RESPECT TO THIS INFORMATION,
+ AND EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR PARTICULAR PURPOSES AND NONINFRINGEMENT OF THIRD PARTY RIGHTS.
