@@ -319,12 +319,6 @@ Files: libdocument/ev-document-text.c
 Copyright: 2010, Yaco Sistemas, Daniel Garcia <danigm@yaco.es>
 License: GPL-2+
 
-Files: po/*.po
-Copyright: THE PACKAGE'S COPYRIGHT HOLDER
-License: GPL-2+
-Comment:
- Using license from COPYING file.
-
 Files: cut-n-paste/gimpcellrenderertoggle/gimpcellrenderertoggle.c
        cut-n-paste/gimpcellrenderertoggle/gimpcellrenderertoggle.h
 Copyright: 1995-1997, Peter Mattis and Spencer Kimball
