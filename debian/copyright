@@ -494,6 +494,7 @@ License:
  Using license from COPYING file.
 
 Files: po/*.po
+       po/gnome-copyrights.txt
 Copyright: THE PACKAGE'S COPYRIGHT HOLDER
            2005, Free Software Foundation, Inc.
            2007, Ihar Hrachyshka
@@ -502,7 +503,8 @@ License: GPL-2+
 Comment:
  Using license from COPYING file.
 
-Files: backend/comics/Makefile.am
+Files: .tx/config
+       backend/comics/Makefile.am
        backend/comics/*.in
        backend/djvu/Makefile.am
        backend/djvu/*.in
@@ -533,6 +535,7 @@ Files: backend/comics/Makefile.am
        cut-n-paste/toolbar-editor/Makefile.am
        cut-n-paste/toolbar-editor/*.list
        cut-n-paste/totem-screensaver/Makefile.am
+       cut-n-paste/totem-screensaver/README
        cut-n-paste/zoom-control/Makefile.am
        cut-n-paste/Makefile.am
        data/icons/16x16/actions/Makefile.am
@@ -586,12 +589,14 @@ Files: backend/comics/Makefile.am
        data/*.png
        data/*.in
        libdocument/Makefile.am
+       libdocument/ev-version.h.in
        libdocument/*.template
        libmisc/Makefile.am
        libview/Makefile.am
        libview/ev-pixbuf-cache.c
        libview/*.template
        libview/*.list
+       po/ChangeLog
        po/LINGUAS
        po/POTFILES.*
        previewer/Makefile.am
@@ -599,12 +604,24 @@ Files: backend/comics/Makefile.am
        properties/Makefile.am
        shell/Makefile.am
        shell/atril-icon.rc
+       shell/ev-marshal.list
        test/Makefile.am
        test/*.py
+       test/test-encrypt.pdf
+       test/test-links.pdf
+       test/test-mime.bin
+       test/test-page-labels.pdf
        thumbnailer/Makefile.am
        thumbnailer/atril-thumbnailer.1
-       thumbnailer/atril-thumbnailer.in
+       thumbnailer/atril.thumbnailer.in
+       AUTHORS
+       COPYING
+       ChangeLog
        Makefile.am
+       NEWS
+       NEWS.gnome
+       README
+       TODO
        autogen.sh
        atril-document.*
        atril-view.*
