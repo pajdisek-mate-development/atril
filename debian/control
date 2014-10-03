@@ -31,7 +31,7 @@ Build-Depends: cdbs,
                libgail-dev,
                xsltproc,
                libgxps-dev,
-Standards-Version: 3.9.6
+Standards-Version: 3.9.5
 Homepage: http://www.mate-desktop.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-mate/atril.git;a=summary
 Vcs-Git: git://anonscm.debian.org/pkg-mate/atril.git
