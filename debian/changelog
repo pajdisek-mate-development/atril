@@ -1,3 +1,20 @@
+atril (1.8.1+dfsg1-2) unstable; urgency=medium
+
+  [ Vangelis Mouhtsis ]
+  * debian/control: Bump Standards: to 3.9.6.
+    + No changes needed.
+
+  [ Mike Gabriel ]
+  * debian/rules:
+    + Use upstream's NEWS file as upstream ChangeLog.
+  * debian/rules:
+    + Drop libatril-properties-page.la on non-amd64 builds, as well.
+  * debian/copyright:
+    + Drop information of ev-version.h. Not shipped in upstream sources
+      anymore.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 25 Oct 2014 18:45:13 +0200
+
 atril (1.8.1+dfsg1-1) unstable; urgency=medium
 
   * New upstream release.
