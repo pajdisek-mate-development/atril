@@ -228,7 +228,6 @@ Files: atril-document.h
        atril-view.h
        libdocument/ev-init.c
        libdocument/ev-init.h
-       libdocument/ev-version.h
 Copyright: 2009, Christian Persch
 License: LGPL-2.1+
 
