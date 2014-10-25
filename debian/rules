@@ -34,7 +34,7 @@ install/libatrildocument3::
 	rm -Rf debian/tmp/usr/lib/atril/3/backends/*.la
 
 install/atril::
-	rm -Rf debian/tmp/usr/lib/x86_64-linux-gnu/caja/extensions-2.0/libatril-properties-page.la
+	rm -Rf debian/tmp/usr/lib/*/caja/extensions-2.0/libatril-properties-page.la
 
 common-install-indep:: remove-cruft
 common-install-arch:: remove-cruft
