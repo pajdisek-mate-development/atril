@@ -1,3 +1,11 @@
+atril (1.8.1+dfsg1-3) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 0001_open-multiple-files.patch. Allow selecting multiple files
+      and opening them in Atril. (Closes: #772014).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 04 Dec 2014 12:32:18 +0100
+
 atril (1.8.1+dfsg1-2) unstable; urgency=medium
 
   [ Vangelis Mouhtsis ]
