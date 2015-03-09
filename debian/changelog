@@ -1,3 +1,12 @@
+atril (1.8.1+dfsg1-4) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 0002_forgotten-mutex-unlock.patch. Don't forget to unlock the
+      trylock'ed mutex. Prevents from unpredictable behaviour after that
+      mutex unlocking has been forgotten. (Closes: #779848).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 09 Mar 2015 09:26:24 +0100
+
 atril (1.8.1+dfsg1-3) unstable; urgency=medium
 
   * debian/patches:
