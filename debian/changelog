@@ -1,3 +1,11 @@
+atril (1.8.1+dfsg1-5) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 0003_bug-tracker-url.patch. Point to the Github issue tracker
+      where atril sources are hosted. (Closes: #780500).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 28 May 2015 10:44:35 +0200
+
 atril (1.8.1+dfsg1-4) unstable; urgency=medium
 
   * debian/patches:
