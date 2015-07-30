@@ -1,4 +1,3 @@
-0001_open-multiple-files.patch
 0002_forgotten-mutex-unlock.patch
 0003_bug-tracker-url.patch
 2001_omit-gfdl-licensed-help-files.patch
