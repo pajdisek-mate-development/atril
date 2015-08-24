@@ -202,5 +202,5 @@ Description: GObject introspection data for Atril
  .
  This package contains introspection data for Atril.
  .
- It can be used by packages using the GIRepository format to generate 
+ It can be used by packages using the GIRepository format to generate
  dynamic bindings.
