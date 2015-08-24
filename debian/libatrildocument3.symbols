@@ -50,11 +50,12 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_attachment_open@Base 1.8.0
  ev_attachment_save@Base 1.8.0
  ev_backends_manager_get_all_types_info@Base 1.8.0
+ ev_backends_manager_get_backends_dir@Base 1.10.1
  ev_backends_manager_get_document@Base 1.8.0
  ev_backends_manager_get_document_module_name@Base 1.8.0
  ev_backends_manager_get_document_type_info@Base 1.8.0
  ev_compression_type_get_type@Base 1.8.0
- ev_doc_mutex@Base 1.8.0
+#MISSING: 1.10.1# ev_doc_mutex@Base 1.8.0
  ev_document_annotations_add_annotation@Base 1.8.0
  ev_document_annotations_can_add_annotation@Base 1.8.0
  ev_document_annotations_document_is_modified@Base 1.8.0
@@ -64,6 +65,7 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_document_attachments_get_attachments@Base 1.8.0
  ev_document_attachments_get_type@Base 1.8.0
  ev_document_attachments_has_attachments@Base 1.8.0
+ ev_document_check_add_night_sheet@Base 1.10.1
  ev_document_check_dimensions@Base 1.8.0
  ev_document_doc_mutex_lock@Base 1.8.0
  ev_document_doc_mutex_trylock@Base 1.8.0
@@ -75,6 +77,7 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_document_fc_mutex_lock@Base 1.8.0
  ev_document_fc_mutex_trylock@Base 1.8.0
  ev_document_fc_mutex_unlock@Base 1.8.0
+ ev_document_find_check_for_hits@Base 1.10.1
  ev_document_find_find_text@Base 1.8.0
  ev_document_find_get_type@Base 1.8.0
  ev_document_find_page_by_label@Base 1.8.0
@@ -98,8 +101,8 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_document_forms_get_form_fields@Base 1.8.0
  ev_document_forms_get_type@Base 1.8.0
  ev_document_get_backend_info@Base 1.8.0
- ev_document_get_doc_mutex@Base 1.8.0
- ev_document_get_fc_mutex@Base 1.8.0
+#MISSING: 1.10.1# ev_document_get_doc_mutex@Base 1.8.0
+#MISSING: 1.10.1# ev_document_get_fc_mutex@Base 1.8.0
  ev_document_get_info@Base 1.8.0
  ev_document_get_max_label_len@Base 1.8.0
  ev_document_get_max_page_size@Base 1.8.0
@@ -139,6 +142,8 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_document_links_find_link_page@Base 1.8.0
  ev_document_links_get_dest_page@Base 1.8.0
  ev_document_links_get_dest_page_label@Base 1.8.0
+ ev_document_links_get_link_page@Base 1.10.1
+ ev_document_links_get_link_page_label@Base 1.10.1
  ev_document_links_get_links@Base 1.8.0
  ev_document_links_get_links_model@Base 1.8.0
  ev_document_links_get_type@Base 1.8.0
@@ -173,11 +178,12 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_document_thumbnails_get_dimensions@Base 1.8.0
  ev_document_thumbnails_get_thumbnail@Base 1.8.0
  ev_document_thumbnails_get_type@Base 1.8.0
+ ev_document_toggle_night_mode@Base 1.10.1
  ev_document_transition_get_effect@Base 1.8.0
  ev_document_transition_get_page_duration@Base 1.8.0
  ev_document_transition_get_type@Base 1.8.0
  ev_document_ui_hints_get_type@Base 1.8.0
- ev_fc_mutex@Base 1.8.0
+#MISSING: 1.10.1# ev_fc_mutex@Base 1.8.0
  ev_file_compress@Base 1.8.0
  ev_file_exporter_begin@Base 1.8.0
  ev_file_exporter_begin_page@Base 1.8.0
@@ -213,7 +219,7 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_image_new_from_pixbuf@Base 1.8.0
  ev_image_save_tmp@Base 1.8.0
  ev_init@Base 1.8.0
- ev_layer_get_id@Base 1.8.0
+#MISSING: 1.10.1# ev_layer_get_id@Base 1.8.0
  ev_layer_get_rb_group@Base 1.8.0
  ev_layer_get_type@Base 1.8.0
  ev_layer_is_parent@Base 1.8.0
@@ -221,13 +227,17 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_link_action_get_action_type@Base 1.8.0
  ev_link_action_get_dest@Base 1.8.0
  ev_link_action_get_filename@Base 1.8.0
+ ev_link_action_get_hide_list@Base 1.10.1
  ev_link_action_get_name@Base 1.8.0
  ev_link_action_get_params@Base 1.8.0
+ ev_link_action_get_show_list@Base 1.10.1
+ ev_link_action_get_toggle_list@Base 1.10.1
  ev_link_action_get_type@Base 1.8.0
  ev_link_action_get_uri@Base 1.8.0
  ev_link_action_new_dest@Base 1.8.0
  ev_link_action_new_external_uri@Base 1.8.0
  ev_link_action_new_launch@Base 1.8.0
+ ev_link_action_new_layers_state@Base 1.10.1
  ev_link_action_new_named@Base 1.8.0
  ev_link_action_new_remote@Base 1.8.0
  ev_link_action_type_get_type@Base 1.8.0
@@ -245,13 +255,14 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_link_dest_new_fith@Base 1.8.0
  ev_link_dest_new_fitr@Base 1.8.0
  ev_link_dest_new_fitv@Base 1.8.0
+ ev_link_dest_new_hlink@Base 1.10.1
  ev_link_dest_new_named@Base 1.8.0
  ev_link_dest_new_page@Base 1.8.0
  ev_link_dest_new_page_label@Base 1.8.0
  ev_link_dest_new_xyz@Base 1.8.0
  ev_link_dest_type_get_type@Base 1.8.0
  ev_link_get_action@Base 1.8.0
- ev_link_get_page@Base 1.8.0
+#MISSING: 1.10.1# ev_link_get_page@Base 1.8.0
  ev_link_get_title@Base 1.8.0
  ev_link_get_type@Base 1.8.0
  ev_link_new@Base 1.8.0
@@ -304,6 +315,8 @@ libdjvudocument.so libatrildocument3 #MINVER#
  register_atril_backend@Base 1.8.0
 libdvidocument.so libatrildocument3 #MINVER#
  register_atril_backend@Base 1.8.0
+libepubdocument.so libatrildocument3 #MINVER#
+ register_atril_backend@Base 1.10.1
 libpdfdocument.so libatrildocument3 #MINVER#
  _Z29pdf_document_images_get_imageP17_EvDocumentImagesP8_EvImage@Base 1.8.0
  pdf_document_get_type@Base 1.8.0

@@ -79,6 +79,7 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_job_run_mode_get_type@Base 1.8.0
  ev_job_save_get_type@Base 1.8.0
  ev_job_save_new@Base 1.8.0
+ ev_job_scheduler_get_running_thread_job@Base 1.10.1
  ev_job_scheduler_push_job@Base 1.8.0
  ev_job_scheduler_update_job@Base 1.8.0
  ev_job_set_run_mode@Base 1.8.0
@@ -164,6 +165,7 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_view_copy@Base 1.8.0
  ev_view_copy_link_address@Base 1.8.0
  ev_view_cursor_new@Base 1.8.0
+ ev_view_disconnect_handlers@Base 1.10.1
  ev_view_find_cancel@Base 1.8.0
  ev_view_find_changed@Base 1.8.0
  ev_view_find_next@Base 1.8.0
@@ -180,8 +182,12 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_view_new@Base 1.8.0
  ev_view_next_page@Base 1.8.0
  ev_view_presentation_get_current_page@Base 1.8.0
+ ev_view_presentation_get_rotation@Base 1.10.1
  ev_view_presentation_get_type@Base 1.8.0
  ev_view_presentation_new@Base 1.8.0
+ ev_view_presentation_next_page@Base 1.10.1
+ ev_view_presentation_previous_page@Base 1.10.1
+ ev_view_presentation_set_rotation@Base 1.10.1
  ev_view_previous_page@Base 1.8.0
  ev_view_reload@Base 1.8.0
  ev_view_scroll@Base 1.8.0
@@ -193,3 +199,24 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_view_show_cursor@Base 1.8.0
  ev_view_zoom_in@Base 1.8.0
  ev_view_zoom_out@Base 1.8.0
+ ev_web_view_copy@Base 1.10.1
+ ev_web_view_disconnect_handlers@Base 1.10.1
+ ev_web_view_find_cancel@Base 1.10.1
+ ev_web_view_find_changed@Base 1.10.1
+ ev_web_view_find_next@Base 1.10.1
+ ev_web_view_find_previous@Base 1.10.1
+ ev_web_view_find_search_changed@Base 1.10.1
+ ev_web_view_find_set_highlight_search@Base 1.10.1
+ ev_web_view_get_has_selection@Base 1.10.1
+ ev_web_view_get_type@Base 1.10.1
+ ev_web_view_handle_link@Base 1.10.1
+ ev_web_view_new@Base 1.10.1
+ ev_web_view_next_page@Base 1.10.1
+ ev_web_view_previous_page@Base 1.10.1
+ ev_web_view_reload@Base 1.10.1
+ ev_web_view_reload_page@Base 1.10.1
+ ev_web_view_select_all@Base 1.10.1
+ ev_web_view_set_handler@Base 1.10.1
+ ev_web_view_set_model@Base 1.10.1
+ ev_web_view_zoom_in@Base 1.10.1
+ ev_web_view_zoom_out@Base 1.10.1
