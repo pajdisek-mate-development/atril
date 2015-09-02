@@ -1,8 +1,13 @@
 atril (1.10.2+repack1-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/{libatrildocument3,atril}.install:
+    + Process with wrap-and-sort.
+  * debian/control:
+    + Clean up build dependencies. Process with wrap-and-sort.
 
- -- Martin Wimpress <code@flexion.org>  Tue, 01 Sep 2015 12:20:12 +0100
+ -- Mike Gabriel <sunweaver@debian.org>  Wed, 02 Sep 2015 05:17:52 +0200
 
 atril (1.10.1+repack1-1) unstable; urgency=medium
 
