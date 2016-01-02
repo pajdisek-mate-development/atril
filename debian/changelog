@@ -1,8 +1,26 @@
-atril (1.12.1-1) UNRELEASED; urgency=medium
+atril (1.12.2-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/copyright:
+    + Update copyright attributions.
+  * debian/patches:
+    + Drop 2001_dont-ship-mathjax.patch. Applied upstream.
+  * debian/watch:
+    + Drop +repack suffix.
+  * debian/rules:
+    + Remove obsolete repacking.
+  * debian/control:
+    + Drop obsolete B-D and D (atril): mate-icon-theme.
+    + Versioned B-D: mate-common (>= 1.12), libcaja-extension-dev (>= 1.12) and
+      libmate-desktop-dev (>= 1.12).
 
- -- Martin Wimpress <code@flexion.org>  Mon, 09 Nov 2015 20:52:25 +0000
+  [ Mike Gabriel ]
+  * debian/control:
+    + Add D (gir1.2-atril): libatrildocument3. (Closes: #799068).
+    + Versioned B-D: libgxps-dev (>= 0.2.0).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 02 Jan 2016 12:51:31 +0100
 
 atril (1.10.2+repack1-1) unstable; urgency=medium
 
