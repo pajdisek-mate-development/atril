@@ -32,7 +32,7 @@ Build-Depends: debhelper (>= 9),
                xsltproc,
                yelp-tools,
                zlib1g-dev,
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: http://www.mate-desktop.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-mate/atril.git
 Vcs-Git: https://anonscm.debian.org/pkg-mate/atril.git
