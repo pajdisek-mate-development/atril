@@ -1,4 +1,6 @@
 libatrilview.so.3 libatrilview3 #MINVER#
+#MISSING: 1.14.0# ev_web_view_find_set_highlight_search@Base 1.10.1
+#MISSING: 1.14.0# ev_web_view_get_has_selection@Base 1.10.1
  ev_annotation_window_get_annotation@Base 1.8.0
  ev_annotation_window_get_rectangle@Base 1.8.0
  ev_annotation_window_get_type@Base 1.8.0
@@ -206,8 +208,6 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_web_view_find_next@Base 1.10.1
  ev_web_view_find_previous@Base 1.10.1
  ev_web_view_find_search_changed@Base 1.10.1
- ev_web_view_find_set_highlight_search@Base 1.10.1
- ev_web_view_get_has_selection@Base 1.10.1
  ev_web_view_get_type@Base 1.10.1
  ev_web_view_handle_link@Base 1.10.1
  ev_web_view_new@Base 1.10.1
