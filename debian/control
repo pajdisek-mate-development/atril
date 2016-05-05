@@ -8,8 +8,8 @@ Uploaders: Mike Gabriel <sunweaver@debian.org>,
            Vangelis Mouhtsis <vangelis@gnugr.org>,
            Martin Wimpress <code@flexion.org>,
 Build-Depends: debhelper (>= 9),
-               gobject-introspection,
                dpkg-dev (>= 1.16.1.1),
+               gobject-introspection,
                intltool,
                libcaja-extension-dev (>= 1.14),
                libdjvulibre-dev,
@@ -189,10 +189,10 @@ Description: MATE document rendering library (debugging symbols)
 
 Package: gir1.2-atril
 Architecture: any
-Depends: ${gir:Depends},
+Depends: libatrildocument3,
+         ${gir:Depends},
          ${misc:Depends},
          ${shlibs:Depends},
-         libatrildocument3,
 Description: GObject introspection data for Atril
  Atril is a simple multi-page document viewer.  It can display
  and print PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI and
