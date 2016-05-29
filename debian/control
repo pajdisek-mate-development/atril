@@ -64,22 +64,6 @@ Description: MATE document viewer
  copying text to the clipboard, hypertext navigation, and
  table-of-contents bookmarks.
 
-Package: atril-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: atril (= ${binary:Version}),
-         ${misc:Depends},
-Description: MATE document viewer (debugging symbols)
- Atril is a simple multi-page document viewer.  It can display
- and print PostScript (PS), Encapsulated PostScript (EPS), DJVU, DVI and
- Portable Document Format (PDF) files.
- .
- This package contains debugging symbols for Atril.
- .
- The debugging symbols are installed in /usr/lib/debug and will
- automatically be used by gdb.
-
 Package: atril-common
 Architecture: all
 Depends: ${misc:Depends},
