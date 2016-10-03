@@ -13,6 +13,7 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_document_model_get_continuous@Base 1.8.0
  ev_document_model_get_document@Base 1.8.0
  ev_document_model_get_dual_page@Base 1.8.0
+ ev_document_model_get_dual_page_odd_pages_left@Base 1.16.0
  ev_document_model_get_fullscreen@Base 1.8.0
  ev_document_model_get_inverted_colors@Base 1.8.0
  ev_document_model_get_max_scale@Base 1.8.0
@@ -27,6 +28,7 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_document_model_set_continuous@Base 1.8.0
  ev_document_model_set_document@Base 1.8.0
  ev_document_model_set_dual_page@Base 1.8.0
+ ev_document_model_set_dual_page_odd_pages_left@Base 1.16.0
  ev_document_model_set_fullscreen@Base 1.8.0
  ev_document_model_set_inverted_colors@Base 1.8.0
  ev_document_model_set_max_scale@Base 1.8.0
