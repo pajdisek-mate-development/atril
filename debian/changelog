@@ -1,10 +1,26 @@
-atril (1.16.0-1) UNRELEASED; urgency=medium
+atril (1.16.0-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+  * debian/copyright:
+    + Update copyright attributions.
+
+  [ Vangelis Mouhtsis ]
+  * debian/changelog:
+    + Fix missing changelog items for 1.15.3-0ubuntu1 upload.
   * debian/control:
     + Dependencies updated for MATE 1.16.
+  * debian/watch:
+    + Update version matching again to _not_ support development releases.
 
- -- Martin Wimpress <code@flexion.org>  Fri, 23 Sep 2016 10:46:47 +0100
+  [ Mike Gabriel ]
+  * debian/*.symbols:
+    + Update for 1.16.0.
+  * debian/atril.lintian-overrides:
+    + Drop unused override
+      pkg-has-shlibs-control-file-but-no-actual-shared-libs.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 03 Oct 2016 22:57:32 +0200
 
 atril (1.15.3-0ubuntu1) yakkety; urgency=medium
 
