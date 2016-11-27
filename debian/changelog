@@ -1,3 +1,14 @@
+atril (1.16.1-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Support image/vnd.djvu+multipage MIME type. (Closes: #840324).
+    - Build: require poppler 0.22.0 (for case-sensitive search in PDFs).
+      Fix PDF case-sensitive search (Closes: #798533).
+  * debian/control:
+    + Versioned B-D: libpoppler-glib-dev (>= 0.22.0).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 27 Nov 2016 14:59:23 +0100
+
 atril (1.16.0-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
