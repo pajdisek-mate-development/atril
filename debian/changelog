@@ -1,3 +1,18 @@
+atril (1.16.1-2) unstable; urgency=medium
+
+  [ Martin Wimpress ]
+  * debian/rules: Enable dh_girespository helper.
+
+  [ Mike Gabriel ]
+  * debian/control:
+    + Replace R: dbus-x11 by R: default-dbus-session-bus | dbus-session-bus.
+      (Closes: #835835).
+  * debian/rules:
+    + Drop override_dh_builddeb, use normal xz compression. Fixes FTBFS on
+      mipsel. (Closes: #846611).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 24 Jan 2017 09:34:03 +0100
+
 atril (1.16.1-1) unstable; urgency=medium
 
   * New upstream release.
