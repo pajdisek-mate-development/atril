@@ -90,6 +90,8 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_job_succeeded@Base 1.8.0
  ev_job_thumbnail_get_type@Base 1.8.0
  ev_job_thumbnail_new@Base 1.8.0
+ ev_link_accessible_get_type@Base 1.18.0
+ ev_link_accessible_new@Base 1.18.0
  ev_loading_window_get_size@Base 1.8.0
  ev_loading_window_get_type@Base 1.8.0
  ev_loading_window_move@Base 1.8.0
@@ -159,7 +161,9 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_transition_animation_ready@Base 1.8.0
  ev_transition_animation_set_dest_surface@Base 1.8.0
  ev_transition_animation_set_origin_surface@Base 1.8.0
- ev_view_accessible_factory_get_type@Base 1.8.0
+#MISSING: 1.18.0# ev_view_accessible_factory_get_type@Base 1.8.0
+ ev_view_accessible_get_type@Base 1.18.0
+ ev_view_accessible_new@Base 1.18.0
  ev_view_autoscroll_start@Base 1.8.0
  ev_view_autoscroll_stop@Base 1.8.0
  ev_view_begin_add_annotation@Base 1.8.0
