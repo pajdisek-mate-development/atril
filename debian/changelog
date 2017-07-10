@@ -21,6 +21,8 @@ atril (1.18.0-1) UNRELEASED; urgency=medium
     + Bump debhelper version to (>= 10.3~).
   * debian/rules:
     + Add new block for override_dh_missing.
+  * debian/control:
+    + Bump Standards-Version: to 4.0.0. No changes needed.
 
  -- Vangelis Mouhtsis <vangelis@gnugr.org>  Wed, 05 Jul 2017 16:38:51 +0300
 
