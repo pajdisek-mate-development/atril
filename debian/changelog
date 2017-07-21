@@ -1,3 +1,12 @@
+atril (1.16.1-2.1) unstable; urgency=high
+
+  * Non-maintainer upload
+  * Add 0001-CVE-2017-1000083-comics-Remove-support-for-tar-and-tar-like-command.patch
+    Fixes a command injection vulnerability in CBT handler. CVE-2017-1000083
+    (Closes: #868500)
+
+ -- Santiago Ruano Rincón <santiagorr@riseup.net>  Fri, 21 Jul 2017 06:59:09 +0200
+
 atril (1.16.1-2) unstable; urgency=medium
 
   [ Martin Wimpress ]
