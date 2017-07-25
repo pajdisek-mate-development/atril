@@ -1,18 +1,19 @@
-atril (1.18.0-1) UNRELEASED; urgency=medium
+atril (1.18.0-1) unstable; urgency=medium
+
+  [ Aron Xu ]
+  * New upstream release.
 
   [ Martin Wimpress ]
   * debian/control: Dependencies updated for MATE 1.17.
   * debian/rules: Remove obsolete --with-gtk=3.0
-  * debian/debian/atril.install: Remove obsolete usr/lib/*/atril-convert-metadata
+  * debian/debian/atril.install: Remove obsolete
+    usr/lib/*/atril-convert-metadata
   * debian/copyright: Update copyright attributions.
   * debian/rules: Enable dh_girespository helper.
   * debian/control: Dependencies updated for MATE 1.18.
   * debian/copyright: Update copyright attributions.
   * debian/libatril{document,view}3.symbols: Update symbols for 1.18 release.
   * debian/rules: Add --disable-silent-rules, as used in other packages.
-
-  [ Aron Xu ]
-  * New upstream release.
 
   [ Vangelis Mouhtsis ]
   * debian/compat:
@@ -26,7 +27,15 @@ atril (1.18.0-1) UNRELEASED; urgency=medium
   * debian/rules:
     + Disable autoreconf, handled by autogen.sh.
 
- -- Vangelis Mouhtsis <vangelis@gnugr.org>  Wed, 05 Jul 2017 16:38:51 +0300
+  [ Mike Gabriel ]
+  * debian/patches:
+    + Drop 0001-CVE-2017-1000083-comics-Remove-support-for-tar-and-tar-like-
+      command.patch. Upstream has a better fix for this.
+    + Add 0001-CVE-2017-1000083-comics-make-files-containing-checkpoint-action-
+      unsupported.patch. Leave functionality intact _and_ properly address
+      CVE-2017-1000083.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 25 Jul 2017 17:57:07 +0200
 
 atril (1.16.1-2.1) unstable; urgency=high
 
