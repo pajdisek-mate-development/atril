@@ -13,7 +13,7 @@ endif
 endif
 
 %:
-	dh $@ $(DHFLAGS) --with gir
+	dh $@ $(DHFLAGS) --with gir --without autoreconf
 
 override_dh_missing:
 	dh_missing --fail-missing
