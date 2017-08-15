@@ -1,3 +1,9 @@
+atril (1.18.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Tue, 15 Aug 2017 21:14:03 +0100
+
 atril (1.18.0-1) unstable; urgency=medium
 
   [ Aron Xu ]
