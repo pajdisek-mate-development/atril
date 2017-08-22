@@ -1,8 +1,13 @@
-atril (1.18.1-1) UNRELEASED; urgency=medium
+atril (1.18.1-1) unstable; urgency=medium
 
+  [ Martin Wimpress ]
   * New upstream release.
+    - ev-window: remove deprecated GtkToolbar-shadow-type. (Closes: #869657).
+    - sidebar-layers: Make it usable at all + various improvments. (Closes:
+      #860160, #869358).
+    - ... (see upstream changelog)
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Tue, 15 Aug 2017 21:14:03 +0100
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 22 Aug 2017 20:14:45 +0200
 
 atril (1.18.0-1) unstable; urgency=medium
 
