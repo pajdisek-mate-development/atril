@@ -11,6 +11,7 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_annotation_get_name@Base 1.8.0
  ev_annotation_get_page@Base 1.8.0
  ev_annotation_get_page_index@Base 1.8.0
+ ev_annotation_get_rgba@Base 1.19.6
  ev_annotation_get_type@Base 1.8.0
  ev_annotation_markup_get_label@Base 1.8.0
  ev_annotation_markup_get_opacity@Base 1.8.0
@@ -28,6 +29,7 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_annotation_set_modified@Base 1.8.0
  ev_annotation_set_modified_from_time@Base 1.8.0
  ev_annotation_set_name@Base 1.8.0
+ ev_annotation_set_rgba@Base 1.19.6
  ev_annotation_text_get_icon@Base 1.8.0
  ev_annotation_text_get_is_open@Base 1.8.0
  ev_annotation_text_get_type@Base 1.8.0
@@ -58,9 +60,11 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
 #MISSING: 1.10.1# ev_doc_mutex@Base 1.8.0
  ev_document_annotations_add_annotation@Base 1.8.0
  ev_document_annotations_can_add_annotation@Base 1.8.0
+ ev_document_annotations_can_remove_annotation@Base 1.19.6
  ev_document_annotations_document_is_modified@Base 1.8.0
  ev_document_annotations_get_annotations@Base 1.8.0
  ev_document_annotations_get_type@Base 1.8.0
+ ev_document_annotations_remove_annotation@Base 1.19.6
  ev_document_annotations_save_annotation@Base 1.8.0
  ev_document_attachments_get_attachments@Base 1.8.0
  ev_document_attachments_get_type@Base 1.8.0
@@ -97,6 +101,7 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_document_forms_form_field_choice_toggle_item@Base 1.8.0
  ev_document_forms_form_field_choice_unselect_all@Base 1.8.0
  ev_document_forms_form_field_text_get_text@Base 1.8.0
+ ev_document_text_get_text_attrs@Base 1.19.6
  ev_document_forms_form_field_text_set_text@Base 1.8.0
  ev_document_forms_get_form_fields@Base 1.8.0
  ev_document_forms_get_type@Base 1.8.0
@@ -269,13 +274,16 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_link_new@Base 1.8.0
  ev_mapping_list_find@Base 1.8.0
  ev_mapping_list_find_custom@Base 1.8.0
+ ev_mapping_list_get@Base 1.19.6
  ev_mapping_list_get_data@Base 1.8.0
  ev_mapping_list_get_list@Base 1.8.0
  ev_mapping_list_get_page@Base 1.8.0
+ ev_mapping_list_get_type@Base 1.19.6
  ev_mapping_list_length@Base 1.18.0
  ev_mapping_list_new@Base 1.8.0
  ev_mapping_list_nth@Base 1.18.0
  ev_mapping_list_ref@Base 1.8.0
+ ev_mapping_list_remove@Base 1.19.6
  ev_mapping_list_unref@Base 1.8.0
  ev_mkdtemp@Base 1.8.0
  ev_mkstemp@Base 1.8.0
