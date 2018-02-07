@@ -1,10 +1,10 @@
-atril (1.20.0-0ubuntu1) bionic; urgency=medium
+atril (1.20.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
  -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 07 Feb 2018 14:03:56 +0000
 
-atril (1.19.6-0ubuntu1) bionic; urgency=medium
+atril (1.19.6-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
@@ -114,7 +114,7 @@ atril (1.16.0-1) unstable; urgency=medium
 
   [ Vangelis Mouhtsis ]
   * debian/changelog:
-    + Fix missing changelog items for 1.15.3-0ubuntu1 upload.
+    + Fix missing changelog items for 1.15.3-1 upload.
   * debian/control:
     + Dependencies updated for MATE 1.16.
   * debian/watch:
@@ -129,7 +129,7 @@ atril (1.16.0-1) unstable; urgency=medium
 
  -- Mike Gabriel <sunweaver@debian.org>  Mon, 03 Oct 2016 22:57:32 +0200
 
-atril (1.15.3-0ubuntu1) yakkety; urgency=medium
+atril (1.15.3-1) yakkety; urgency=medium
 
   * New upstream development release.
   * debian/control:
