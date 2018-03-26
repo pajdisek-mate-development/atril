@@ -98,10 +98,10 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_job_thumbnail_new@Base 1.8.0
  ev_link_accessible_get_type@Base 1.18.0
  ev_link_accessible_new@Base 1.18.0
- ev_loading_window_get_size@Base 1.8.0
- ev_loading_window_get_type@Base 1.8.0
- ev_loading_window_move@Base 1.8.0
- ev_loading_window_new@Base 1.8.0
+#MISSING: 1.20.1# ev_loading_window_get_size@Base 1.8.0
+#MISSING: 1.20.1# ev_loading_window_get_type@Base 1.8.0
+#MISSING: 1.20.1# ev_loading_window_move@Base 1.8.0
+#MISSING: 1.20.1# ev_loading_window_new@Base 1.8.0
  ev_page_accessible_get_page@Base 1.19.6
  ev_page_accessible_get_type@Base 1.19.6
  ev_page_accessible_get_view@Base 1.19.6
@@ -210,6 +210,7 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_view_hide_cursor@Base 1.8.0
  ev_view_highlight_forward_search@Base 1.8.0
  ev_view_is_caret_navigation_enabled@Base 1.19.6
+ ev_view_is_loading@Base 1.20.1
  ev_view_new@Base 1.8.0
  ev_view_next_page@Base 1.8.0
  ev_view_presentation_get_current_page@Base 1.8.0
@@ -235,6 +236,7 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_view_zoom@Base 1.19.6
  ev_view_zoom_in@Base 1.8.0
  ev_view_zoom_out@Base 1.8.0
+ ev_view_zoom_reset@Base 1.20.1
  ev_web_view_copy@Base 1.10.1
  ev_web_view_disconnect_handlers@Base 1.10.1
  ev_web_view_find_cancel@Base 1.10.1
@@ -254,3 +256,4 @@ libatrilview.so.3 libatrilview3 #MINVER#
  ev_web_view_set_model@Base 1.10.1
  ev_web_view_zoom_in@Base 1.10.1
  ev_web_view_zoom_out@Base 1.10.1
+ ev_web_view_zoom_reset@Base 1.20.1
