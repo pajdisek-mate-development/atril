@@ -1,4 +1,5 @@
 libatrildocument.so.3 libatrildocument3 #MINVER#
+* Build-Depends-Package: libatrildocument-dev
  ev_annotation_attachment_get_attachment@Base 1.8.0
  ev_annotation_attachment_get_type@Base 1.8.0
  ev_annotation_attachment_new@Base 1.8.0
