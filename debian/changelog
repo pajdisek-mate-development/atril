@@ -1,8 +1,15 @@
-atril (1.20.3-1) UNRELEASED; urgency=medium
+atril (1.20.3-1) unstable; urgency=medium
 
   * New upstream release.
+    - Reduce chattiness of atril-daemon. (Closes: #798616).
+  * debian/control:
+    + Bump Standards-Version: to 4.2.1. No changes needed.
+    + Use secure URL in Homepage: field.
+  * debian/libatril*.symbols:
+    + Add Build-Depends-Package: meta data field.
 
- -- Mike Gabriel <sunweaver@debian.org>  Sat, 22 Dec 2018 22:21:42 +0100
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 22 Dec 2018 22:24:46 +0100
 
 atril (1.20.2-1) unstable; urgency=medium
 
