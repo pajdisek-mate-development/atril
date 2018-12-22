@@ -1,3 +1,9 @@
+atril (1.20.3-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 22 Dec 2018 22:21:42 +0100
+
 atril (1.20.2-1) unstable; urgency=medium
 
   [ Mike Gabriel ]
