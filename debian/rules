@@ -22,8 +22,6 @@ override_dh_install:
 	rm -rfv debian/tmp/usr/lib/*/*.la
 	rm -rfv debian/tmp/usr/lib/*/caja/extensions-2.0/*.la
 	rm -rfv debian/tmp/usr/lib/*/atril/3/backends/*.la
-	mkdir -p debian/tmp/usr/share/metainfo/
-	mv debian/tmp/usr/share/appdata/atril.appdata.xml debian/tmp/usr/share/metainfo/
 	dh_install
 
 override_dh_auto_test:
