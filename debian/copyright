@@ -674,6 +674,7 @@ Files: .tx/config
        previewer/previewer-ui.xml
        properties/Makefile.am
        shell/Makefile.am
+       shell/atril.about
        shell/atril-toolbar.xml
        shell/atril-ui.xml
        shell/atril.css
@@ -698,6 +699,7 @@ Files: .tx/config
        atril-document.*
        atril-view.*
        configure.ac
+       update-authors.pl
 Copyright: *No copyright*
 License: GPL-2+
 Comment:
