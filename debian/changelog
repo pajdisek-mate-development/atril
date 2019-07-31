@@ -1,19 +1,8 @@
-atril (1.22.1-1) unstable; urgency=medium
+atril (1.22.1-1) UNRELEASED; urgency=medium
 
-  [ Martin Wimpress ]
   * New upstream release.
-  * debian/copyright:
-    + Update copyright attributions.
 
-  [ Mike Gabriel ]
-  * debian/{compat,control}:
-    + Use debhelper-compat notation. Bump to DH compat level version 12.
-  * debian/control:
-    + Bump Standards-Version: to 4.4.0. No changes needed.
-  * debian/rules:
-    + Drop dbgsym-migration dh_strip override.
-
- -- Mike Gabriel <sunweaver@debian.org>  Tue, 30 Jul 2019 23:35:21 +0200
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 18 Mar 2019 20:30:23 +0000
 
 atril (1.20.3-1) unstable; urgency=medium
 
