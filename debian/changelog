@@ -1,8 +1,15 @@
-atril (1.22.3-1) UNRELEASED; urgency=medium
+atril (1.22.3-1) unstable; urgency=medium
 
   * New upstream release.
+  * debian/changelog: Document security issue closure for 1.22.1-1.
+  * debian/patches:
+    + Add CVE-2019-11459.patch. tiff: Handle failure from
+      TIFFReadRGBAImageOriented. (Closes: #927821, CVE-2019-11459).
+  * debian/control:
+    + Add Rules-Requires-Root: field and set it to 'no'.
+    + Bump Standards-Version: to 4.4.1. No changes needed.
 
- -- Mike Gabriel <sunweaver@debian.org>  Mon, 16 Dec 2019 09:31:14 +0100
+ -- Mike Gabriel <mike.gabriel@das-netzwerkteam.de>  Mon, 16 Dec 2019 10:23:05 +0100
 
 atril (1.22.2-1) unstable; urgency=medium
 
@@ -18,6 +25,11 @@ atril (1.22.1-1) unstable; urgency=medium
 
   [ Martin Wimpress ]
   * New upstream release.
+  * debian/patches:
+    + Add 0002_CVE-2019-1010006.patch. Fix buffer overflow.
+      (CVE-2019-1010006)
+    + Add 0001_prevent_no_doc_segfault.patch. Prevent segfaults when no
+      document is loaded.
   * debian/copyright:
     + Update copyright attributions.
   * debian/rules:
