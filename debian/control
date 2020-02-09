@@ -32,7 +32,7 @@ Build-Depends: debhelper-compat (=12),
                xsltproc,
                yelp-tools,
                zlib1g-dev,
-Standards-Version: 4.4.1
+Standards-Version: 4.5.0
 Rules-Requires-Root: no
 Homepage: https://mate-desktop.org/
 Vcs-Browser: https://salsa.debian.org/debian-mate-team/atril
