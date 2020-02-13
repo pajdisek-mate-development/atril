@@ -157,9 +157,9 @@ libatrildocument.so.3 libatrildocument3 #MINVER#
  ev_document_load@Base 1.8.0
  ev_document_misc_format_date@Base 1.8.0
  ev_document_misc_get_loading_thumbnail@Base 1.8.0
+ ev_document_misc_get_monitor_dpi@Base 1.24.0
  ev_document_misc_get_page_border_size@Base 1.8.0
  ev_document_misc_get_pointer_position@Base 1.16.0
- ev_document_misc_get_screen_dpi@Base 1.8.0
  ev_document_misc_get_thumbnail_frame@Base 1.8.0
  ev_document_misc_invert_pixbuf@Base 1.8.0
  ev_document_misc_invert_surface@Base 1.8.0
