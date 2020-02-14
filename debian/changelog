@@ -1,16 +1,26 @@
-atril (1.24.0-1) UNRELEASED; urgency=medium
+atril (1.24.0-1) unstable; urgency=medium
 
   [ Mike Gabriel ]
   * debian/control:
     + Bump Standards-Version: to 4.5.0. No changes needed.
+    + Update versioned B-D on mate-common (>= 1.24.0-1~).
   * debian/upstream/metadata:
     + Drop obsolete fields Contact: and Name:.
     + Append .git suffix to URLs in Repository: field.
 
   [ Martin Wimpress ]
   * New upstream release.
+  * debian/patches:
+    + Drop CVE-2019-11459.patch. Applied upstream.
+  * debian/copyright:
+    + Update copyright attributions.
+  * debian/control:
+    + Add B-D libsynctex-dev.
+    + Add B-D libxml2-utils.
+  * debian/libatrildocument3.symbols:
+    + Update symbols.
 
- -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 13 Feb 2020 01:25:41 +0000
+ -- Mike Gabriel <sunweaver@debian.org>  Fri, 14 Feb 2020 11:22:02 +0100
 
 atril (1.22.3-1) unstable; urgency=medium
 
